@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>التسجيل</title>
+       
+       
+        <link rel="stylesheet" href="css/style.css" />
+   <script>    
+$(function(){
+
+$('.bar').click(function(){
+  $('.phone').slideToggle(2500);
+});
+
+});
+
+</script>
+    </head>
+    <body>
+
+	<form class="uk-form">
+	<div class="uk-grid uk-margin-bottom">
+	<div class="uk-width-1-2"><input type="text" placeholder="اسم العائلة" class="uk-width-1-1"  data-uk-tooltip="{pos:'left'}" title="سيظهر مع الاسم الاول في الموقع"></div>	
+	<div class="uk-width-1-2"><input type="text" placeholder="الاسم الاول" class="uk-width-1-1"  data-uk-tooltip="{pos:'right'}" title="سيظهر في الموقع"></div>
+	</div>	
+	
+	<input type="email" placeholder="البريد الالكتروني" class="uk-width-1-1 uk-margin-bottom"  data-uk-tooltip="{pos:'right'}" title="ستستعمله في استعادة كلمة المرور وتفعيل الحساب" />
+	<input type="text" placeholder="اسم المستخدم" class="uk-width-1-1 uk-margin-bottom"  data-uk-tooltip="{pos:'right'}" title="ستعمله في تسجيل الدخول" />
+	
+	<div class="uk-grid uk-margin-bottom">
+	<div class="uk-width-1-2"><input type="password" placeholder="اعد كتابة كلمة المرور" class="uk-width-1-1"  data-uk-tooltip="{pos:'left'}" title="يجب ان تكون مطابقة لكلمة المرور في المربع الاول"></div>	
+	<div class="uk-width-1-2"><input type="password" placeholder="كلمة المرور" class="uk-width-1-1"  data-uk-tooltip="{pos:'right'}" title="ستعملها في تسجيل الدخول"></div>
+	</div>	
+	
+	<button class="uk-button uk-button-large uk-width-1-1" type="button">تسجيل</button>
+	
+	</form>
+	</div>
+    </div>
+	
+	
+	
+    </body>
+</html>
